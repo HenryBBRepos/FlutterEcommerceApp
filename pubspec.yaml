@@ -1,0 +1,32 @@
+name: biaqik
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  searchfield: ^0.5.2
+#  flutter_hooks: ^0.18.0
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Mont
+      fonts:
+        - asset: assets/fonts/Mont/Mont-Regular.otf
+        - asset: assets/fonts/Mont/Mont-Bold.otf
