@@ -1,4 +1,5 @@
 import 'package:biaqik/screens/cart/cart.dart';
+import 'package:biaqik/screens/home/home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:searchfield/searchfield.dart';
@@ -33,12 +34,20 @@ class _DetailsState extends State<Details> {
                             child: Container(
                               margin: EdgeInsets.only(top: 20),
                               alignment: Alignment.topLeft,
-                              child: Icon(
-                                CupertinoIcons.chevron_left,
-                                color: Color(0xff3e3956),
-                                size: 24.0,
-                                semanticLabel: 'Go back',
+                              child: new IconButton(
+                                padding: new EdgeInsets.all(0.0),
+                                icon: Icon(
+                                  CupertinoIcons.chevron_left,
+                                  color: Color(0xff3e3956),
+                                  size: 24.0,
+                                  semanticLabel: 'Go back',
+                                ),
+                                onPressed: () {
+                                  showDialog(context: context, builder: (BuildContext context) => Home());
+                                },
+
                               ),
+
 
                             ),
                           ),

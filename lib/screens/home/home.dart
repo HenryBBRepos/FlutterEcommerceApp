@@ -105,9 +105,6 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                 ),
-
-
-
                 Container(
                   child: Row(
                     children: [
@@ -236,7 +233,6 @@ class _HomeState extends State<Home> {
                     ],
                   ),
                 ),
-
                 Container(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -270,7 +266,6 @@ class _HomeState extends State<Home> {
                     ],
                   ),
                 ),
-
                 Container(
                   height: 250,
                   child: ListView(
@@ -933,7 +928,6 @@ class _HomeState extends State<Home> {
                     ],
                   ),
                 ),
-
                 Container(
                   height: 110,
                   child: ListView(
