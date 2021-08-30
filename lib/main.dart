@@ -34,6 +34,7 @@ import 'package:biaqik/screens/cart/cart.dart';
 import 'package:biaqik/screens/home/home.dart';
 import 'package:biaqik/screens/product/details.dart';
 import 'package:biaqik/screens/settings/settings.dart';
+import 'package:biaqik/screens/splash/splash.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -58,7 +59,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //      debugShowCheckedModeBanner: false,
     title: 'SPA Ecommerce App',
-      home: MainApp(),
+      home: Splash(),
     );
   }
 }
@@ -111,7 +112,7 @@ class MainApp extends HookWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(0),
+                            padding: const EdgeInsets.only(top: 5,left: 10,right: 10),
                             child: Container(
                               height: 60,
                               width: 50,
@@ -134,7 +135,7 @@ class MainApp extends HookWidget {
                           ),
 
                           Padding(
-                            padding: const EdgeInsets.all(0),
+                            padding: const EdgeInsets.only(top: 5,left: 10,right: 10),
                             child: Container(
                               height: 60,
                               width: 50,
@@ -157,7 +158,7 @@ class MainApp extends HookWidget {
                           ),
 
                           Padding(
-                            padding: const EdgeInsets.all(0),
+                            padding: const EdgeInsets.only(top: 5,left: 10,right: 10),
                             child: Container(
                               height: 60,
                               width: 50,
